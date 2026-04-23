@@ -1,0 +1,30 @@
+{
+  "name": "pi-codex-rotate",
+  "version": "0.1.0",
+  "description": "Manage multiple ChatGPT Codex OAuth accounts with rotation and refresh in Pi",
+  "keywords": [
+    "pi",
+    "pi-package",
+    "pi-extension",
+    "pi-coding-agent",
+    "codex",
+    "oauth",
+    "rotation",
+    "openai"
+  ],
+  "type": "module",
+  "files": [
+    "extensions/",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions/index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": ">=0.57.0"
+  },
+  "license": "MIT"
+}

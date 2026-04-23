@@ -1,0 +1,29 @@
+{
+  "name": "pi-cache-timer",
+  "version": "0.1.0",
+  "description": "Footer cache timer extension for Pi",
+  "keywords": [
+    "pi",
+    "pi-package",
+    "pi-extension",
+    "pi-coding-agent",
+    "cache",
+    "timer",
+    "anthropic"
+  ],
+  "type": "module",
+  "files": [
+    "extensions/",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions/index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": ">=0.57.0"
+  },
+  "license": "MIT"
+}
