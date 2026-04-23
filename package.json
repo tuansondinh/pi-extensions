@@ -9,9 +9,8 @@
   "scripts": {
     "pack:cache-timer": "npm pack --dry-run ./packages/pi-cache-timer",
     "pack:secure-env-collect": "npm pack --dry-run ./packages/pi-secure-env-collect",
-    "pack:codex-rotate": "npm pack --dry-run ./packages/pi-codex-rotate",
     "pack:lazy-tools": "npm pack --dry-run ./packages/pi-lazy-tools",
-    "pack:all": "npm run pack:cache-timer && npm run pack:secure-env-collect && npm run pack:codex-rotate && npm run pack:lazy-tools"
+    "pack:all": "npm run pack:cache-timer && npm run pack:secure-env-collect && npm run pack:lazy-tools"
   },
   "license": "MIT"
 }
